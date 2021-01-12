@@ -3,6 +3,7 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_place/google_place.dart';
+import 'package:memo_pbl2/memos/memoPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,6 +20,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
+      routes: <String, WidgetBuilder> {
+        '/home': (BuildContext context) => new HomePage(),
+        '/subpage': (BuildContext context) => new MemoPage()
+      },
     );
   }
 }
@@ -111,6 +116,7 @@ class _HomePageState extends State<HomePage> {
                 margin: EdgeInsets.only(top: 10, bottom: 10),
                 child: Image.asset("assets/powered_by_google.png"),
               ),
+              RaisedButton(onPressed: () => Navigator.of(context).pushNamed("/subpage"), child: new Text('memo'),)
             ],
           ),
         ),
