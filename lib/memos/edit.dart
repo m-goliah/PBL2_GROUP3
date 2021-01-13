@@ -65,7 +65,8 @@ class Edit extends StatelessWidget {
                       )
                     ),
                   ),
-                SampleButton()
+
+                SampleButton(_current, _onChanged)
 
               ]
       )
