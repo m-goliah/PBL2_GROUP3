@@ -116,6 +116,9 @@ class _HomePageState extends State<HomePage> {
                 margin: EdgeInsets.only(top: 10, bottom: 10),
                 child: Image.asset("assets/powered_by_google.png"),
               ),
+              /*
+               * Open memo page.
+               */
               RaisedButton(onPressed: () => Navigator.of(context).pushNamed("/subpage"), child: new Text('memo'),)
             ],
           ),

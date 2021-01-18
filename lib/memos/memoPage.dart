@@ -20,6 +20,7 @@ class MemoPage extends StatelessWidget {
 
 class MemoListState extends State<MemoList> {
   var _memoList = new List<Memo>();
+  // Index of memos you have chosen.
   var _currentIndex = -1;
   bool _loading = true;
   final _biggerFont = const TextStyle(fontSize: 18.0);
@@ -53,29 +54,26 @@ class MemoListState extends State<MemoList> {
     );
   }
 
+  /*
+   *  Load the list of memos from json
+   */
   void loadMemoList() {
-    // SharedPreferences.getInstance().then((prefs) {
-    //   // const title_key = "memo-title-list";
-    //   const key = "memo-list___";
+    SharedPreferences.getInstance().then((prefs) {
+      const key = "memo-list";
 
-    //   if (prefs.containsKey(key)) {
-    //     // List _memotitleList = prefs.getStringList(title_key);
-    //     var _jsonfile = prefs.getStringList(key);
-    //     _memoList = _jsonfile.map((f) => Memo.fromJson(json.decode(f))).toList();
-    //     // if (_memotitleList.length == _memobodyList.length) {
-    //     //   for (int i = 0; i < _memobodyList.length; i++) {
-    //     //     String _title = _memotitleList[i];
-    //     //     String _body = _memobodyList[i];
-    //     //     _memoList.add(new Memo.load(_title, _body));
-    //     //   }
-    //     // }
-    //   }
-    setState(() {
-      _loading = false;
+      if (prefs.containsKey(key)) {
+        var _jsonfile = prefs.getStringList(key);
+        _memoList = _jsonfile.map((f) => Memo.fromJson(json.decode(f))).toList();
+      }
+      setState(() {
+        _loading = false;
+      });
     });
-    // });
   }
 
+  /*
+   *  Add a new blank memo.
+   */
   void _addMemo() {
     setState(() {
       _memoList.add(new Memo.add());
@@ -89,6 +87,9 @@ class MemoListState extends State<MemoList> {
     });
   }
 
+  /*
+   *  If any changes are made to the memo, update and save the memo.
+   */
   void _onChanged(Memo memo) {
     setState(() {
       _memoList[_currentIndex] = memo;
@@ -96,31 +97,27 @@ class MemoListState extends State<MemoList> {
     });
   }
 
+  /*
+   *  Save the list of memos as json
+   */
   void storeMemoList() async {
     final prefs = await SharedPreferences.getInstance();
-    // const title_key = "memo-title-list";
-    const key = "memo-list___";
 
-    List _memotitleList = new List<String>();
-    List _memobodyList = new List<String>();
+    const key = "memo-list";
 
-    for (Memo memo in _memoList) {
-      _memotitleList.add(memo.title);
-      _memobodyList.add(memo.body);
-    }
+    List<String> _jsonfiles =
+        _memoList.map((f) => json.encode(f.toJson())).toList();
 
-    final String encodedData = Memo.encode(_memoList);
-
-    // List<String> _jsonfile =
-    //     _memoList.map((f) => json.encode(f.toJson())).toList();
-
-    final _success = await prefs.setString(key, encodedData);
-
-    if (_success) {
-      debugPrint("Failed to store value");
-    }
+    await prefs.setStringList(key, _jsonfiles);
+    // final _success = await prefs.setStringList(key, _jsonfiles);
+    // if (_success) {
+    //   debugPrint("Failed to store value");
+    // }
   }
 
+  /*
+   *  Display the list of memo's titles.
+   */
   Widget _buildList() {
     final itemCount = _memoList.length == 0 ? 0 : _memoList.length * 2 - 1;
     return ListView.builder(
