@@ -117,6 +117,8 @@ class _HomePageState extends State<HomePage> {
                 margin: EdgeInsets.only(top: 10, bottom: 10),
                 child: Image.asset("assets/powered_by_google.png"),
               ),
+
+              // To move to the alarm screen (for debug)
               RaisedButton(
                 child: const Text('alarm'),
                 color: Colors.blue,

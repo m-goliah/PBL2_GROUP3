@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:memo_pbl2/alarm//NotificationPlugin.dart';
 import 'package:memo_pbl2/alarm/NotificationScreen.dart';
+import 'package:memo_pbl2/memos/memo.dart';
 
 class LocalNotificationScreen extends StatefulWidget {
   @override
@@ -9,13 +10,17 @@ class LocalNotificationScreen extends StatefulWidget {
 }
 
 class _LocalNotificationScreenState extends State<LocalNotificationScreen> {
-  //
-
   int count = 0;
+
+  // To check the operation of the alarm function
+  Memo sampleMemo = new Memo();
 
   @override
   void initState() {
     super.initState();
+
+    sampleMemo.title = "sample_title";
+    sampleMemo.body = "sample_body";
     notificationPlugin
         .setListenerForLowerVersions(onNotificationInLowerVersions);
     notificationPlugin.setOnNotificationClick(onNotificationClick);
@@ -28,11 +33,15 @@ class _LocalNotificationScreenState extends State<LocalNotificationScreen> {
         title: Text('Local Notifications'),
       ),
       body: Center(
+        // Send an alarm by pressing a button
         child: FlatButton(
           onPressed: () async {
-            // await notificationPlugin.showNotification();
+            // Reading title and body of memo
+            await notificationPlugin.showNotification(
+                sampleMemo.title, sampleMemo.body);
+
             // await notificationPlugin.scheduleNotification();
-            await notificationPlugin.showNotificationWithAttachment();
+            // await notificationPlugin.showNotificationWithAttachment();
             // await notificationPlugin.repeatNotification();
             // await notificationPlugin.showDailyAtTime();
             // await notificationPlugin.showWeeklyAtDayTime();
