@@ -3,8 +3,6 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_place/google_place.dart';
-import 'package:memo_pbl2/alarm/alarm.dart';
-import 'package:memo_pbl2/alarm/LocalNotificationScreen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,10 +19,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
-      routes: <String, WidgetBuilder>{
-        '/home': (BuildContext context) => new HomePage(),
-        '/subpage': (BuildContext context) => new LocalNotificationScreen()
-      },
     );
   }
 }
@@ -116,16 +110,6 @@ class _HomePageState extends State<HomePage> {
               Container(
                 margin: EdgeInsets.only(top: 10, bottom: 10),
                 child: Image.asset("assets/powered_by_google.png"),
-              ),
-
-              // To move to the alarm screen (for debug)
-              RaisedButton(
-                child: const Text('alarm'),
-                color: Colors.blue,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                onPressed: () => Navigator.of(context).pushNamed("/subpage"),
               ),
             ],
           ),
@@ -238,27 +222,27 @@ class _DetailsPageState extends State<DetailsPage> {
                       ),
                       detailsResult != null && detailsResult.types != null
                           ? Container(
-                              margin: EdgeInsets.only(left: 15, top: 10),
-                              height: 50,
-                              child: ListView.builder(
-                                scrollDirection: Axis.horizontal,
-                                itemCount: detailsResult.types.length,
-                                itemBuilder: (context, index) {
-                                  return Container(
-                                    margin: EdgeInsets.only(right: 10),
-                                    child: Chip(
-                                      label: Text(
-                                        detailsResult.types[index],
-                                        style: TextStyle(
-                                          color: Colors.white,
-                                        ),
-                                      ),
-                                      backgroundColor: Colors.blueAccent,
-                                    ),
-                                  );
-                                },
+                        margin: EdgeInsets.only(left: 15, top: 10),
+                        height: 50,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemCount: detailsResult.types.length,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              margin: EdgeInsets.only(right: 10),
+                              child: Chip(
+                                label: Text(
+                                  detailsResult.types[index],
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                backgroundColor: Colors.blueAccent,
                               ),
-                            )
+                            );
+                          },
+                        ),
+                      )
                           : Container(),
                       Container(
                         margin: EdgeInsets.only(left: 15, top: 10),
@@ -268,7 +252,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           title: Text(
                             detailsResult != null &&
-                                    detailsResult.formattedAddress != null
+                                detailsResult.formattedAddress != null
                                 ? 'Address: ${detailsResult.formattedAddress}'
                                 : "Address: null",
                           ),
@@ -282,8 +266,8 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           title: Text(
                             detailsResult != null &&
-                                    detailsResult.geometry != null &&
-                                    detailsResult.geometry.location != null
+                                detailsResult.geometry != null &&
+                                detailsResult.geometry.location != null
                                 ? 'Geometry: ${detailsResult.geometry.location.lat.toString()},${detailsResult.geometry.location.lng.toString()}'
                                 : "Geometry: null",
                           ),
@@ -297,7 +281,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           title: Text(
                             detailsResult != null &&
-                                    detailsResult.utcOffset != null
+                                detailsResult.utcOffset != null
                                 ? 'UTC offset: ${detailsResult.utcOffset.toString()} min'
                                 : "UTC offset: null",
                           ),
@@ -311,7 +295,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           title: Text(
                             detailsResult != null &&
-                                    detailsResult.rating != null
+                                detailsResult.rating != null
                                 ? 'Rating: ${detailsResult.rating.toString()}'
                                 : "Rating: null",
                           ),
@@ -325,7 +309,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           ),
                           title: Text(
                             detailsResult != null &&
-                                    detailsResult.priceLevel != null
+                                detailsResult.priceLevel != null
                                 ? 'Price level: ${detailsResult.priceLevel.toString()}'
                                 : "Price level: null",
                           ),

@@ -27,7 +27,7 @@ class NotificationPlugin {
     }
     initializePlatformSpecifics();
   }
-   
+
   //  通知の設定の初期化をする
   initializePlatformSpecifics() {
     var initializationSettingsAndroid =
@@ -46,6 +46,7 @@ class NotificationPlugin {
     initializationSettings = InitializationSettings(
         initializationSettingsAndroid, initializationSettingsIOS);
   }
+
   // IOSの許可を得るため
   _requestIOSPermission() {
     flutterLocalNotificationsPlugin
@@ -58,12 +59,14 @@ class NotificationPlugin {
         );
   }
 
+  //  バージョンの変更に関して
   setListenerForLowerVersions(Function onNotificationInLowerVersions) {
     didReceivedLocalNotificationSubject.listen((receivedNotification) {
       onNotificationInLowerVersions(receivedNotification);
     });
   }
 
+  // クリックすることでonNotificationClickが動きshownotificationのpayloadの値をnotificationscreenの定数のpayloadに入れる
   setOnNotificationClick(Function onNotificationClick) async {
     await flutterLocalNotificationsPlugin.initialize(initializationSettings,
         onSelectNotification: (String payload) async {
