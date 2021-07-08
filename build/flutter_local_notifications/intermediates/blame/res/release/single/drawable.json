@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/res/drawable/notification_bg.xml"
+    }
+]
