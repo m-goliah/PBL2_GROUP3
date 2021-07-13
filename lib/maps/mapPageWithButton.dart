@@ -93,7 +93,7 @@ class HomePageBodyState extends State<HomePageBody> {
               Container(
                 width: 120,
                 height: 50,
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
                 color: Colors.blueAccent,
                 padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
 
@@ -107,7 +107,7 @@ class HomePageBodyState extends State<HomePageBody> {
                 height: 50,
                 color: Colors.blueAccent,
                 padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
                 child: Text(
                     "Lng: "+currentLng
                 ),
@@ -117,7 +117,7 @@ class HomePageBodyState extends State<HomePageBody> {
                 height: 50,
                 color: Colors.blueAccent,
                 padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                margin: EdgeInsets.fromLTRB(10, 0, 0, 0),
                 child: Text(
                     "Speed: "+currentSpeed
                 ),
@@ -151,7 +151,7 @@ class HomePageBodyState extends State<HomePageBody> {
                       _onePointMark();
                       print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
                       print(getDistance(l.longitude, l.latitude,Edit.selectedPlace.geometry.location.lng,Edit.selectedPlace.geometry.location.lat));
-                      if(getDistance(l.longitude, l.latitude,Edit.selectedPlace.geometry.location.lng,Edit.selectedPlace.geometry.location.lat)<300.0){
+                      if(l.speed<5.0 && getDistance(l.longitude, l.latitude,Edit.selectedPlace.geometry.location.lng,Edit.selectedPlace.geometry.location.lat)<150.0){
                         await notificationPlugin.showNotification(
                         Edit.memoContent.title, Edit.memoContent.body);
 
@@ -160,9 +160,9 @@ class HomePageBodyState extends State<HomePageBody> {
                     else{
                       place.get();
                       _placeMark();
-                      if(getDistance(l.longitude, l.latitude,place.geometry1["location"]["lng"],place.geometry1["location"]["lat"])<300.0){
+                      if(l.speed<5.0 && getDistance(l.longitude, l.latitude,place.geometry1["location"]["lng"],place.geometry1["location"]["lat"])<150.0){
                         await notificationPlugin.showNotification(
-                            "memo_title", "memo_body");
+                            Edit.memoContent.title, Edit.memoContent.body);
                       }
                     }
 
