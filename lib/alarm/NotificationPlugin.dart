@@ -1,4 +1,4 @@
-import 'dart:ffi';
+// import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -31,7 +31,7 @@ class NotificationPlugin {
   //  通知の設定の初期化をする
   initializePlatformSpecifics() {
     var initializationSettingsAndroid =
-        AndroidInitializationSettings('app_notf_icon');
+        AndroidInitializationSettings("@mipmap/ic_launcher");
     var initializationSettingsIOS = IOSInitializationSettings(
       requestAlertPermission: true,
       requestBadgePermission: true,
@@ -109,6 +109,7 @@ class NotificationPlugin {
       platformChannelSpecifics,
       payload: 'New Payload',
     );
+    print(">>>>>>>>>>>><<<<<<<<<<<<<<");
   }
 
   // Future<void> showDailyAtTime() async {

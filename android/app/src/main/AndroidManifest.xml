@@ -46,4 +46,7 @@
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAW2IuelHY1Op8I71A5RSKfD4lZAFQ8lhQ"/>
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 </manifest>

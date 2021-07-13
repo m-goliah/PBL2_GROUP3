@@ -1,12 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
-INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
-INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
-INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
-MERGED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
+ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
+MERGED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
 MERGED from [:google_maps_flutter] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:location_web] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:geolocator] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/2b16ac6c4193835014f293427ee35afa/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/448ee224598a501f4280223a5920f313/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/d8e69336e21c6a428e8a9e9d99518477/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -21,6 +29,8 @@ MERGED from [androidx.activity:activity:1.0.0] /Users/liuyiming/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/85dccd77aff39d07f63c42d603c4f408/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/cc7e45b0e2a26c4b0029f671b00e4d4b/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/1681add2c5f7781230c3b0d90cc57ad9/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/333a1c851fce95274a1c02b6cf2bfc8f/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/4984010260dbc9a2c1854e6baf8d8227/core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/f64fa5f7ac9fa4f53ef92dad5dfe2353/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -33,7 +43,7 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/liuyimin
 MERGED from [androidx.customview:customview:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/acf999d338d007d1e88d450cb8e478ac/core-1.3.2/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/8a63dff257c5b294adf99c2bc1601e39/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
@@ -61,16 +71,18 @@ INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:1-52:12
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:1:11-69
 application
 ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:8:5-48:19
+MERGED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:13:5-21:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/448ee224598a501f4280223a5920f313/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
@@ -89,8 +101,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/liuyim
 MERGED from [com.google.android.gms:play-services-basement:17.2.1] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/d43a7935f3b46fdb61c9e23e58aa7f5a/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/85dccd77aff39d07f63c42d603c4f408/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/85dccd77aff39d07f63c42d603c4f408/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.core:core:1.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/acf999d338d007d1e88d450cb8e478ac/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/acf999d338d007d1e88d450cb8e478ac/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/a024cfbaffdc93c18617714410587605/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/a024cfbaffdc93c18617714410587605/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/ee9b431c10ed8cd86a08837a4574fd26/jetified-transport-runtime-2.2.3/AndroidManifest.xml:25:5-39:19
@@ -100,7 +112,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/liuy
 MERGED from [com.android.volley:volley:1.1.1] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/743c0858866baa4fd9a5603afd93cdbe/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/743c0858866baa4fd9a5603afd93cdbe/jetified-volley-1.1.1/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/acf999d338d007d1e88d450cb8e478ac/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:10:9-34
 	android:icon
@@ -155,6 +167,26 @@ ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/And
 		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:47:13-68
 	android:name
 		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:46:20-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:49:5-67
+MERGED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:49:5-67
+MERGED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:49:5-67
+MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/a024cfbaffdc93c18617714410587605/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/a024cfbaffdc93c18617714410587605/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:49:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:50:5-66
+	android:name
+		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:50:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:51:5-80
+	android:name
+		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml:51:22-78
 uses-sdk
 INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml
@@ -163,6 +195,22 @@ MERGED from [:google_maps_flutter] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/
 MERGED from [:google_maps_flutter] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/2b16ac6c4193835014f293427ee35afa/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/2b16ac6c4193835014f293427ee35afa/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:7:5-44
 MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:7:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/448ee224598a501f4280223a5920f313/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
@@ -191,6 +239,10 @@ MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/liuyiming/.gradl
 MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/cc7e45b0e2a26c4b0029f671b00e4d4b/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/1681add2c5f7781230c3b0d90cc57ad9/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/1681add2c5f7781230c3b0d90cc57ad9/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/333a1c851fce95274a1c02b6cf2bfc8f/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/333a1c851fce95274a1c02b6cf2bfc8f/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/4984010260dbc9a2c1854e6baf8d8227/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/4984010260dbc9a2c1854e6baf8d8227/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/f64fa5f7ac9fa4f53ef92dad5dfe2353/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/f64fa5f7ac9fa4f53ef92dad5dfe2353/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
@@ -215,8 +267,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/liuyim
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/b6252bb7f30c7dceb20e97dfa6dfae00/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/acf999d338d007d1e88d450cb8e478ac/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/acf999d338d007d1e88d450cb8e478ac/core-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -261,20 +313,26 @@ INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug
 	android:minSdkVersion
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug/AndroidManifest.xml:6:5-66
-MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/6b9b7fc1ad481537ed0a66d62976ec46/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/a024cfbaffdc93c18617714410587605/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/a024cfbaffdc93c18617714410587605/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:26:5-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/liuyiming/Desktop/amap_demo/memo_pbl2/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:9:5-79
+ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:9:22-76
+		ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/liuyiming/Desktop/amap_demo/memo_pbl2/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.google.android.libraries.places:places:2.4.0] /Users/liuyiming/.gradle/caches/transforms-2/files-2.1/be076df5993343bdab61749100f42c97/places-2.4.0/AndroidManifest.xml:10:5-76
 	android:name
